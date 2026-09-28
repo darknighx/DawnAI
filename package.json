@@ -1,0 +1,14 @@
+{
+  "name": "dawn-behavior-layer",
+  "version": "0.1.0",
+  "description": "Dependency-free checks for Dawn's synthetic behavior fixtures and reference policies",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=16" },
+  "scripts": {
+    "test": "node tests/dawnBehavior.test.cjs",
+    "test:memory": "dotnet run --project tests/MemoryRegression/MemoryRegression.csproj",
+    "test:startup": "dotnet run --project tests/MemoryRegression/MemoryRegression.csproj -- --startup"
+  }
+}

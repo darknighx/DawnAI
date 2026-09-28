@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Dawn</AssemblyName>
+    <RootNamespace>Dawn</RootNamespace>
+    <Product>Dawn</Product>
+    <ApplicationIcon>Assets\Dawn.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Dawn.ico" />
+    <EmbeddedResource Include="Knowledge\psychology_therapy_guide.md" />
+  </ItemGroup>
+
+</Project>

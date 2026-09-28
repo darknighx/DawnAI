@@ -1,0 +1,83 @@
+[
+  {
+    "id": "messy-001",
+    "user_message": "dwannn!!! mah boi??",
+    "normalized_meaning": "dawn my boy",
+    "expected_intent": "casual_slang",
+    "expected_primaryEmotion": "playful",
+    "notes": "Misspelled Dawn, slang boi, repeated punctuation."
+  },
+  {
+    "id": "messy-002",
+    "user_message": "im feelng lonley tonite",
+    "normalized_meaning": "i'm feeling lonely tonight",
+    "expected_intent": "emotional_support",
+    "expected_primaryEmotion": "lonely",
+    "notes": "Missing apostrophe and multiple emotional typos."
+  },
+  {
+    "id": "messy-003",
+    "user_message": "whyy u talk lyk robot??",
+    "normalized_meaning": "why do you talk like robot",
+    "expected_intent": "meta_feedback_about_dawn",
+    "expected_primaryEmotion": "neutral",
+    "notes": "Bad grammar and slang should be treated as tone feedback."
+  },
+  {
+    "id": "messy-004",
+    "user_message": "wat u think abt me",
+    "normalized_meaning": "what do you think about me",
+    "expected_intent": "person_opinion_or_impression",
+    "expected_primaryEmotion": "neutral",
+    "notes": "Abbreviated opinion question."
+  },
+  {
+    "id": "messy-005",
+    "user_message": "r u humon",
+    "normalized_meaning": "are you human",
+    "expected_intent": "identity_question",
+    "expected_primaryEmotion": "neutral",
+    "notes": "Compressed identity question with typo."
+  },
+  {
+    "id": "messy-006",
+    "user_message": "bro im coookeddd",
+    "normalized_meaning": "bro i'm cooked",
+    "expected_intent": "casual_slang",
+    "expected_primaryEmotion": "angry",
+    "notes": "Overwhelmed slang with repeated letters."
+  },
+  {
+    "id": "messy-007",
+    "user_message": "im panicing a lil",
+    "normalized_meaning": "i'm panicking a little",
+    "expected_intent": "grounding_request",
+    "expected_primaryEmotion": "anxious",
+    "notes": "Panic typo should still route calmly."
+  },
+  {
+    "id": "messy-008",
+    "user_message": "i dont think i can stay safe tnight",
+    "normalized_meaning": "i do not think i can stay safe tonight",
+    "expected_intent": "crisis",
+    "expected_primaryEmotion": "crisis",
+    "expected_safetyFlag": "immediate_danger",
+    "notes": "Crisis safety must survive typos and missing apostrophes."
+  },
+  {
+    "id": "messy-009",
+    "user_message": "heyyyy dawn,,,,",
+    "normalized_meaning": "heyy dawn",
+    "expected_intent": "simple_greeting",
+    "expected_primaryEmotion": "neutral",
+    "notes": "Greeting with repeated letters and punctuation."
+  },
+  {
+    "id": "messy-010",
+    "user_message": "dawm",
+    "normalized_meaning": "dawn",
+    "expected_intent": "attention_call",
+    "expected_primaryEmotion": "neutral",
+    "notes": "Dawn name typo should still act like an attention call."
+  }
+]

@@ -1,0 +1,87 @@
+# Build output and locally packaged desktop apps
+[Bb]in/
+[Oo]bj/
+/Dawn-DoubleClick/
+/artifacts/
+/dist/
+*.exe
+*.dll
+*.pdb
+*.lnk
+/DOUBLE CLICK DAWN.txt
+
+# Dependencies, virtual environments, editor state and caches
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.cache
+.tmp/
+tmp/
+temp/
+coverage/
+TestResults/
+*.log
+*.tmp
+*.bak
+*.dmp
+.DS_Store
+Thumbs.db
+
+# Real configuration and credentials; only the root template is public
+.env
+.env.*
+!/.env.example
+appsettings*.json
+search.config.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+
+# Private runtime data (normally under %APPDATA%/Dawn)
+state.json
+state.*.json
+*state*.backup*
+feedback/
+exports/
+debug/
+logs/
+memories/
+conversations/
+chat_history/
+*.jsonl
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+memory-test-*.json
+
+# Optional external datasets and local model weights
+data/external/
+models/
+*.gguf
+*.safetensors
+# Additional private export/config filenames
+profile.json
+user_profile.json
+memory.json
+memories.json
+conversations.json
+chat-history.json
+credentials*.json
+secrets*.json
+last_ollama_request.*
+last_ollama_memory_request.*
+last_memory_relevance.json
+search_provider_chain.json
